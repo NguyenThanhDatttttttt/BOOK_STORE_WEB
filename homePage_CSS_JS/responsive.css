@@ -2,10 +2,10 @@
 /* Mobile */
 @media only screen and (max-width: 480px) {
     .in-left {
-        width: 32%;
+        width: 30%;
     }
     .in-right {
-        width: 63%;
+        width: 63% !important;
     }
 
     * {
@@ -172,7 +172,7 @@
     
 /* Phan Footer */
     footer {
-        height: 28vh;
+        
         margin: 1rem 0.75rem;
         padding: 1rem 0.75rem;
 
@@ -186,7 +186,7 @@
         
         font-size: 0.7rem;
         margin: 0rem;
-        margin-right: 0.5rem;
+        margin-right: 0.2rem;
         
     }
     
@@ -204,9 +204,7 @@
     } 
 
 
-    .footer-right{
-        padding-left: 0.5rem;
-    }
+   
  
     .footer-right .message {
         font-size: 1rem;
