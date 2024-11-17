@@ -22,6 +22,74 @@
     }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    footer {
+    
+        margin: 1rem 0.75rem;
+        padding: 1rem 0.75rem;
+    
+    }
+    .footer-left{
+        border-right: 0.0625rem solid #bbb;
+        margin: 0rem;
+        
+    } 
+    .footer-left .logo {
+        
+        font-size: 1.5rem;
+        margin: 0rem;
+        margin-right: 0.5rem;
+        
+    }
+    
+    .footer-left .node{
+        margin: 0rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+        font-style: italic;
+        font-size: 1.2rem;
+    }
+    .footer-left .xacnhan{
+        width: 10rem;
+        margin-top: 0.75rem;
+        padding-right: 0.5rem;
+      
+    } 
+    
+    
+    .footer-right .message {
+        font-size: 1.5rem;
+    }
+    .footer-container{
+        
+        display:block !important;
+       
+        font-size: 1.2rem;
+    }
+    .short-addr, .email, .phone-num {
+        margin-bottom: 0.25rem;
+        padding: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    
+    
+    .social {
+        font-size: 1.4rem;
+        padding: 0;
+            
+    }
+       
+    .store{
+        margin-left: 1rem;
+        padding: 0;
+    }
+    .store .ggplay,
+    .store .appstore {
+        width: 6rem;
+    }
+    
+}
+
 @media screen and (max-width: 480px) {
     html {
         font-size: 14px;
@@ -137,6 +205,121 @@
     .account-menu:hover .submenu{
         display: block;
     }
+    /* Phan Footer */
+    footer {
+        
+        margin: 1rem 0.75rem;
+        padding: 1rem 0.75rem;
+
+    }
+    .footer-left{
+        border-right: 0.0625rem solid #bbb;
+        margin: 0rem;
+        padding-right: 0.5rem;
+    } 
+    .footer-left a {
+        
+        font-size: 0.7rem;
+        margin: 0rem;
+        margin-right: 0.2rem;
+        
+    }
+    
+    .footer-left .node{
+        margin: 0rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+        font-style: italic;
+        font-size: 0.8rem;
+    }
+    .footer-left img{
+        margin-top: 0.75rem;
+        padding-right: 0.5rem;
+      
+    } 
+
+    .footer-left .xacnhan {
+        width: 6rem;
+        margin-top: 0.75rem;
+        padding-right: 0.5rem;
+    }
+   
+ 
+    .footer-right .message {
+        font-size: 1rem;
+    }
+    .footer-container{
+        flex-direction:column;
+        margin-top: 0.75rem;
+        font-size: 0.8rem;
+    }
+    .footer-right .short-addr{
+        margin-bottom: 0.25rem;
+        padding: 0.25rem;
+        /* font-size: 0.9rem; */
+    }
+    .short-addr{
+        border-bottom: 1px solid #555;
+    }
+    .short-addr i{
+        display: inline-block;
+    }
+    .short-addr p{
+        display: inline;
+        margin-left: 0.15rem;
+    }
+
+    .footer-right .email{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .email p {
+        margin-left: 0.1rem;
+    }
+
+
+    .footer-right .phone-num{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .phone-num p {
+        margin-left: 0.1rem;
+    }
+    
+    footer .social-media {
+        margin-top: 0rem;
+        display: inline-block;
+    }
+    .social-media .social{
+        font-size: 1.3rem;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .social i {
+        display: inline;
+        margin:0;
+        padding: 0;
+    }
+    .store img{
+        padding: 0.25rem;
+        width: 7.5rem;
+    }
+    .store  {
+        margin:0;
+    }
+    .store .ggplay{
+        margin-top: 0.05rem;
+        margin-right: 0.5rem;  
+    }
+    .store .appstore {
+        margin-top: 0rem;
+    }
+    
 }
 
 @media screen and (max-width: 740px) {
