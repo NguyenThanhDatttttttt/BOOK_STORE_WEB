@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - Book Haven</title>
+    <link rel="stylesheet" href="dangky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"> <img src="trắg-01.png" alt=""></a>
+            <a href="../index.html" class="logoname">B O O K H A V E N</a>
+        </div>   
+    </header>
+    
+    <main class="form-container">
+        <h2>Đăng Ký</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="fullname">Họ và Tên</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="dob">Ngày Sinh</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <div id="eye1" class="eye-icon">
+                        <i class="far fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Nhập Lại Mật khẩu</label>
+                <div class="password-container">
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <div id="eye2" class="eye-icon">
+                        <i class="far fa-eye"></i>
+                    </div>
+                </div>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <button type="submit">Đăng Ký</button>
+        </form>
+        <div class="login-container">
+            <p class="form-text">Đã có tài khoản? 
+                <a href="dangnhap.html">Đăng nhập tại đây</a>
+            </p>
+        </div>
+    </main>
+    <script src="dangky.js"></script>
+</div>
+</body>
+</html>
+
+

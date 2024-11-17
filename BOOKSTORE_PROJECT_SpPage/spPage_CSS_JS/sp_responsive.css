@@ -1,0 +1,392 @@
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .shopping-cart {
+        display: block;
+        position: fixed;
+        bottom: 3rem;
+        right: 1.8rem;
+        z-index: 1000;
+    }
+   
+    .shopping-cart a {
+        color: #fff;
+        font-size: 1.6rem;
+        padding: 1rem;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50%;
+        
+    }
+    header .menu{
+        display: none; 
+    }
+    .header {
+        max-width: 100%;
+        height: 5rem;
+    }
+    header .logo{
+        color: #fff;
+        font-size: 1rem; 
+       
+    }   
+    .logo-link {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 1.5rem;
+        left: 37%;
+        transform: translate(-50%, -50%);
+
+    }
+    .logo .logoname{
+        font-size: 1rem;
+        padding: 0;
+    }
+    .logoname {
+        font-size: 0.1rem;
+        position: absolute;
+        top: 1.5rem;
+        left: 59%;
+        transform: translate(-50%, -50%);
+    }
+    .search-btn {
+        position: absolute;
+        top: 3.6rem;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        width: 15rem;
+        
+    }
+    .search-btn input {
+        height: 1.8rem;
+        width: 14.5rem;
+    }
+    .search-btn i {
+        position: absolute;
+        top: 0.3rem
+    }
+   
+    header .mobile-only {
+        
+        margin-right: 1rem;
+        display: inline-block;
+        font-weight: 50;
+    }
+    header .mobile-only a{
+        color: #fff;
+        
+    }
+    .mobile-only .account-nav{
+        padding: 0.5rem;
+        border-radius: 50%;
+        border: 2px solid #bbb;
+        position: absolute;
+        right: 1.2rem;
+        bottom: 0.2rem;
+    }
+    
+    .mobile-only .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0rem;
+        background-color: rgba(0,0,0,0.5);
+        padding: 0.2rem;
+        color: #fff;
+        font-weight: 50;
+        box-shadow: rgb(255, 255, 255, 0.4) 0rem 0.4375rem 1.8125rem 0rem;
+    }
+  
+    .submenu i {
+        margin-left: 0.5rem;
+    }
+    .submenu li {
+        padding: 0.35rem 0.35rem  0.75rem 0.5rem;
+    }
+    
+    .submenu li a:hover {
+        background-color: #ddd;
+    }
+   
+    .account-menu:hover .submenu{
+        display: block;
+    }
+
+
+   /* -------------------BODY--------------- */
+    body {
+        overflow-x: hidden;
+    }
+    * {
+        max-width: 100%;
+    }
+    html {
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+    section {
+        margin: 1rem;
+    }
+    .book-container {
+        position: relative;
+    }
+    
+    .left-pics-container {
+        position: unset;
+        
+    }
+    
+    .right-text-container {
+        top: 1rem;
+    }
+    
+    .in-right,
+    .in-left {
+    float:none;
+    width: 100%;
+    } 
+    .right-text-container .TG {
+        display: block;
+    }
+    .right-text-container .NXB {
+        float:none;
+        margin-left:  0.625rem;
+    }
+
+
+
+    /* FOOTER */
+    footer {
+        height: 28vh;
+        margin: 1rem 0.75rem;
+        padding: 1rem 0.75rem;
+
+    }
+    .footer-left{
+        border-right: 0.0625rem solid #bbb;
+        margin: 0rem;
+        
+    } 
+    .footer-left a {
+        
+        font-size: 0.8rem;
+        margin: 0rem;
+        margin-right: 0.5rem;
+        
+    }
+    
+    .footer-left .node{
+        margin: 0rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+        font-style: italic;
+        font-size: 0.8rem;
+    }
+    .footer-left .xacnhan{
+        width: 7.5rem;
+        margin-top: 0.75rem;
+        padding-right: 0.5rem;
+      
+    } 
+ 
+    .footer-right .message {
+        font-size: 1rem;
+    }
+    .footer-container{
+        flex-direction:column;
+        margin-top: 0.75rem;
+        font-size: 0.8rem;
+    }
+    .footer-right .short-addr{
+        margin-bottom: 0.25rem;
+        padding: 0.25rem;
+     
+    }
+    .short-addr{
+        border-bottom: 1px solid #555;
+    }
+    .short-addr i{
+        display: inline-block;
+    }
+    .short-addr p{
+        display: inline;
+        margin-left: 0.15rem;
+    }
+
+    .footer-right .email{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .email p {
+        margin-left: 0.1rem;
+    }
+
+
+    .footer-right .phone-num{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .phone-num p {
+        margin-left: 0.1rem;
+    }
+    
+    footer .social-media {
+        margin-top: 0rem;
+        display: inline-block;
+    }
+    .social-media .social{
+        font-size: 1.3rem;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .social i {
+        display: inline;
+        margin:0;
+        padding: 0;
+    }
+    .store img{
+        padding: 0.2rem;
+        width: 7.5rem;
+    }
+    .store  {
+       
+        margin:0;
+       
+    }
+    .store .ggplay{
+        margin-top: 0.1rem;  
+    }
+    .store .appstore {
+        margin-top: 0rem;  
+    }
+    
+
+}
+
+ /* -------Tablet------- */
+ @media only screen and (min-width: 480px) and (max-width: 1025px) {
+    html {
+        font-size: 14px;
+    }
+    /* -------header------------ */
+    .search-btn input {
+        width: 15rem;
+    }
+    .header {
+        font-size: 1rem;
+    }
+    /* -----------------body----------- */
+    section {
+        margin: 1rem;
+    }
+    .book-pics img {
+        width: 10rem;
+    }
+    .left-pics-container {
+        position: sticky;
+        top:0
+    }
+
+
+
+
+/* -----------footer---------- */
+
+footer {
+
+    margin: 1rem 0.75rem;
+    padding: 1rem 0.75rem;
+
+}
+.footer-left{
+    border-right: 0.0625rem solid #bbb;
+    margin: 0rem;
+    
+} 
+.footer-left a {
+    
+    font-size: 1.5rem;
+    margin: 0rem;
+    margin-right: 0.5rem;
+    
+}
+
+.footer-left .node{
+    margin: 0rem;
+    margin-top: 0.75rem;
+    margin-right: 0.5rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.footer-left .xacnhan{
+    width: 10rem;
+    margin-top: 0.75rem;
+    padding-right: 0.5rem;
+  
+} 
+
+.footer-right .message {
+    font-size: 1.5rem;
+}
+.footer-container{
+    flex-direction:column;
+    margin-top: 0.75rem;
+    font-size: 1.2rem;
+}
+.footer-right .short-addr{
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+ 
+}
+.short-addr{
+    border-bottom: 1px solid #555;
+}
+.short-addr i{
+    display: inline-block;
+}
+.short-addr p{
+    display: inline;
+    margin-left: 0.15rem;
+}
+
+.footer-right .email{
+    /* font-size: 0.9rem; */
+    padding: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid #555;
+}
+.email p {
+    margin-left: 0.1rem;
+}
+
+
+.footer-right .phone-num{
+    /* font-size: 0.9rem; */
+    padding: 0.25rem;
+    border-bottom: 1px solid #555;
+}
+.phone-num p {
+    margin-left: 0.1rem;
+}
+
+
+    .social {
+       
+        font-size: 1.5rem;
+        
+    }
+   
+    .store{
+        margin-left: 1rem;
+    }
+    .store .ggplay,
+    .store .appstore {
+        width: 8rem;
+    }
+    
+    
+ }

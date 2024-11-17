@@ -1,0 +1,190 @@
+body {
+    background-size: cover;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#form-login {
+    max-width: 400px;
+    width: 100%;
+    background: #f0f0f0;
+   
+    padding: 30px 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.1);
+    
+    transition: transform 0.3s ease;
+}
+
+
+.form-heading {
+    font-size: 25px;
+    color: #333;
+   
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    border-bottom: 1px solid #ccc;
+   
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group i {
+    color: #666;
+    
+    font-size: 20px;
+    padding: 5px;
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #333;
+    
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-input::placeholder {
+    color: #999;
+   
+}
+
+#eye i {
+    padding-right: 0;
+    cursor: pointer;
+    color: #666;
+    
+}
+
+.form-submit {
+    background: #666;
+    
+    border: 1px solid #666;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: background 0.3s ease, border 0.3s ease;
+    margin-top: 30px;
+}
+
+.form-submit:hover {
+    background: #333;
+    
+    border: 1px solid #333;
+}
+
+.form-text {
+    color: #333;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-text a {
+    color: #54a0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    font-size: 1.125rem;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0 1.75rem;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.cart {
+    display: none;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 1.625rem;
+}
+
+.logo img {
+    width: 2.2em;
+    height: 2.2em;
+    display: inline-block;
+}
+
+.logo a {
+    color: #fff;
+}
+
+.logo .logoname {
+    position: absolute;
+    font-size: 1.375rem;
+    padding: 1.125rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu li {
+    padding-right: 0.75rem;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-areas:  
+    "header"
+    "main";
+    grid-template-rows: 80px auto ;
+    min-height: 100vh;
+}
+.header{
+    width: 100%;
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+    width: 100%;
+   
+}
+

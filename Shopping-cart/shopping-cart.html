@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="../assets/src/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./Shopping-cart_CSS_JS/cart.css">
+    <link rel="stylesheet" href="./Shopping-cart_CSS_JS/responsive.css">
+</head>
+<body class="grid-container">
+    <div id="header">
+        <div class="logo">
+            <a href="../index.html" class="logo-link">
+                <img src="../assets/lib/pics/logo/trắg-01.png" class="logo-img">
+                <a href="../index.html" class="logoname ">B O O K H A V E N</a>
+            </a>
+        </div> 
+            <div class="search-btn">
+                <input placeholder ="Nhập sách cần tìm..." type="text"> <i class="ti-search"></i>
+            </div>
+            <div class="menu destop-only">
+                <li class="destop-only login"><a href="../login/dangnhap.html" class="">Đăng Nhập</a></li>
+                <li class="destop-only register"><a href="../login/dangky.html" class="left-line">Đăng Ký</a></li>
+                <li class="destop-only logout hidden"><a href="#" class="left-line">Đăng Xuất</a></li>
+             </div> 
+     
+             <li class="mobile-only account-menu">
+                <a href="#" class="account-nav" id="myLink"><i class="fa-regular fa-user"></i></a>
+                <ul class="submenu">
+                    <li class="bottom-line login2"><a href="../login/dangnhap.html" class="">Đăng Nhập<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                    <li class="register2"><a href="../login/dangky.html" class="">Đăng Ký<i class="fa-regular fa-id-card"></i></a></li>
+                    <li class="logout2 hidden"><a href="#" class="">Đăng Xuất</a></li>
+                </ul>
+            </li>
+    </div>
+    <div id="main">
+        <a href="../BOOKSTORE_PROJECT_SpPage/index.html" class="back-to-product">
+            <i class="ti-angle-double-left"></i>
+            Về trang sản phẩm
+        </a>
+        <h1 class="heading-list">Giỏ hàng</h1>
+        <div class="container">
+            <div class="product-list"></div>
+            <div class="total"></div>
+        </div>
+    </div>
+    <script src="../main.js"></script>
+    <script src="./Shopping-cart_CSS_JS/cart.js"></script>
+    <script>
+        document.getElementById("myLink").addEventListener("click", function(event){
+            event.preventDefault(); 
+
+        });
+    </script>
+    <script>
+        window.addEventListener('load', showCart, false);
+    </script>
+    <script>
+        window.addEventListener('load', addEventToAllCartButtons, false);
+    </script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .in-left {
+        width: 32%;
+    }
+    .in-right {
+        width: 63%;
+    }
+
+    * {
+        max-width: 100%;
+    }
+
+    .bottom-line{
+        border-bottom: 1px solid #aaa;
+    }
+    .destop-only {
+        display: none;
+    }
+    /*---------------------------header---------------------- */
+    .container {
+        display: block; 
+        overflow-x: hidden ;
+    
+        .header,
+        .main,
+        .footer {
+        margin-bottom: 16px;
+    }
+
+    header .menu{
+        display: none; 
+    }
+    .shopping-cart {
+        display: block;
+        position: fixed;
+        bottom: 3rem;
+        right: 1.8rem;
+        z-index: 1000;
+    }
+   
+    .shopping-cart a {
+        color: #fff;
+        font-size: 1.6rem;
+        padding: 1rem;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50%;
+        
+    }
+
+
+
+    .header {
+        max-width: 100%;
+        
+    }
+    header .logo{
+        color: #fff;
+        font-size: 1rem; 
+       
+    }   
+    .logo img{
+        width: 2.2em;
+        height: 2.2em;
+      
+    }
+    .logo a{
+        color:#fff;
+    }
+    .logo .logoname{
+       font-size: 1.1rem;
+       bottom: 10px;
+  
+    }
+   
+    header .mobile-only {
+        
+        margin-right: 1rem;
+        display: inline-block;
+        font-weight: 50;
+    }
+    header .mobile-only a{
+        color: #fff;
+        
+    }
+    .mobile-only .account-nav{
+        padding: 0.5rem;
+        margin-right: 2rem;
+        border-radius: 50%;
+        border: 2px solid #bbb;
+    }
+    .mobile-only .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 3.5rem;
+        background-color: rgba(0,0,0,0.5);
+        padding: 0.2rem;
+        color: #fff;
+        font-weight: 50;
+        box-shadow: rgb(255, 255, 255, 0.4) 0rem 0.4375rem 1.8125rem 0rem;
+    }
+  
+    .submenu i {
+        margin-left: 0.5rem;
+    }
+    .submenu li {
+        padding: 0.35rem 0.35rem  0.75rem 0.5rem;
+    }
+    
+    .submenu li a:hover {
+        background-color: #ddd;
+    }
+   
+    .account-menu:hover .submenu{
+        display: block;
+    }
+   
+    
+
+    .note-slider .slogan {
+        padding: 0 2rem; 
+    }
+
+    .note-slider .slogan h1 {
+        font-size: 1.5rem; 
+        
+    }
+    .note-slider .slogan i {
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    
+    .cmt-container{
+        height: 65vh;
+    }
+    .respose-content{
+        padding: 0;
+        width: 90% ;
+        position:relative;
+        top: 7rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .respone-header h1{
+        font-size: 1.6rem;
+    }
+    .comment-display {
+        padding: 0rem 2.3rem;
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+       
+    }
+    
+    #prevBtn{
+        left: 0;
+        top: 2rem;
+        align-items: center;
+        font-size: 1.875rem;  
+    }
+
+    
+    #nextBtn{
+        right: 0;
+        top: 2rem;
+        align-items: center;
+        font-size: 1.875rem;  
+    }
+    
+/* Phan Footer */
+    footer {
+        height: 28vh;
+        margin: 1rem 0.75rem;
+        padding: 1rem 0.75rem;
+
+    }
+    .footer-left{
+        border-right: 0.0625rem solid #bbb;
+        margin: 0rem;
+        padding-right: 0.5rem;
+    } 
+    .footer-left a {
+        
+        font-size: 0.7rem;
+        margin: 0rem;
+        margin-right: 0.5rem;
+        
+    }
+    
+    .footer-left .node{
+        margin: 0rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+        font-style: italic;
+        font-size: 0.8rem;
+    }
+    .footer-left img{
+        margin-top: 0.75rem;
+        padding-right: 0.5rem;
+      
+    } 
+
+
+    .footer-right{
+        padding-left: 0.5rem;
+    }
+ 
+    .footer-right .message {
+        font-size: 1rem;
+    }
+    .footer-container{
+        flex-direction:column;
+        margin-top: 0.75rem;
+        font-size: 0.8rem;
+    }
+    .footer-right .short-addr{
+        margin-bottom: 0.25rem;
+        padding: 0.25rem;
+        /* font-size: 0.9rem; */
+    }
+    .short-addr{
+        border-bottom: 1px solid #555;
+    }
+    .short-addr i{
+        display: inline-block;
+    }
+    .short-addr p{
+        display: inline;
+        margin-left: 0.15rem;
+    }
+
+    .footer-right .email{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .email p {
+        margin-left: 0.1rem;
+    }
+
+
+    .footer-right .phone-num{
+        /* font-size: 0.9rem; */
+        padding: 0.25rem;
+        border-bottom: 1px solid #555;
+    }
+    .phone-num p {
+        margin-left: 0.1rem;
+    }
+    
+    footer .social-media {
+        margin-top: 0rem;
+        display: inline-block;
+    }
+    .social-media .social{
+        font-size: 1.3rem;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .social i {
+        display: inline;
+        margin:0;
+        padding: 0;
+    }
+    .store img{
+        padding: 0.25rem;
+        width: 7.5rem;
+    }
+    .store  {
+        margin:0;
+    }
+    .store .ggplay{
+        margin-top: 0.05rem;
+        margin-right: 0.5rem;  
+    }
+    .store .appstore {
+        margin-top: 0rem;
+    }
+    
+}
+}
+
+/* ----------------------Tablet------------------ */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+    .container {
+        display: block; 
+      }
+    .note-slider .slogan{
+        padding: 2rem;
+    }
+   
+    .cmt-container {
+        height: 50vh;
+    }
+    .comment-display {
+        padding: 6.5rem ;
+    }
+  
+    
+    #prevBtn{
+        left: 3rem;
+        top: 50%;
+        font-size: 1.875rem;  
+    }
+    #nextBtn{
+        right: 3rem;
+        top: 50%;
+        
+        font-size: 1.875rem;  
+    }
+
+/* --------Phan Footer--------- */
+
+footer {
+    
+    margin: 1rem 0.75rem;
+    padding: 1rem 0.75rem;
+
+}
+.footer-left{
+    border-right: 0.0625rem solid #bbb;
+    margin: 0rem;
+    
+} 
+.footer-left .logo {
+    
+    font-size: 1.5rem;
+    margin: 0rem;
+    margin-right: 0.5rem;
+    
+}
+
+.footer-left .node{
+    margin: 0rem;
+    margin-top: 0.75rem;
+    margin-right: 0.5rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.footer-left .xacnhan{
+    width: 10rem;
+    margin-top: 0.75rem;
+    padding-right: 0.5rem;
+  
+} 
+
+
+.footer-right .message {
+    font-size: 1.5rem;
+}
+.footer-container{
+    
+    display:block !important;
+   
+    font-size: 1.2rem;
+}
+.short-addr, .email, .phone-num {
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+    border-bottom: 1px solid #555;
+}
+
+
+.social {
+    font-size: 1.4rem;
+    padding: 0;
+        
+}
+   
+.store{
+    margin-left: 1rem;
+    padding: 0;
+}
+.store .ggplay,
+.store .appstore {
+    width: 6rem;
+}
+
+}
