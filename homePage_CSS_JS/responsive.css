@@ -40,7 +40,7 @@
         z-index: 1000;
     }
    
-    .shopping-cart a {
+    .shopping-cart i {
         color: #fff;
         font-size: 1.6rem;
         padding: 1rem;
@@ -294,6 +294,12 @@
     .container {
         display: block; 
       }
+      .container {
+        grid-template-rows: 75px auto auto;
+    }
+    .header {
+        height: 80px;
+    }
     .note-slider .slogan{
         padding: 2rem;
     }

@@ -274,19 +274,26 @@
   /* -------Tablet------- */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
     html {
-        font-size: 16px;
+        font-size: 15px;
     }
     section {
         padding: 2rem;
         overflow-x: hidden;
     }
     .search-btn input {
-        width: 15rem;
+        width: 14.5rem;
     }
     .header {
         font-size: 1rem;
     }
-
+    .logo .logoname{
+        font-size: 1.2rem;
+        padding: 1.25rem 1rem;
+    }
+    .container {
+        grid-template-rows: 75px auto auto;
+    }
+  
 
     footer {
 

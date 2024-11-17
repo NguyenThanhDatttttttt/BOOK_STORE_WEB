@@ -171,7 +171,6 @@ header .menu li{
 }
 
 .menu > li:first-child input {
-   
     width: 100%;
     border: none ;
     border-bottom: 0.0625rem solid #fff;
