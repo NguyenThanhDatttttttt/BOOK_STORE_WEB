@@ -213,6 +213,7 @@ body {
 #main {
     grid-area: main-cell;
     position: relative;
+    min-width: 50vh;
 }
 
 .back-to-product {
@@ -253,6 +254,7 @@ body {
     display: flex;
     width: 100%;
     padding: 30px 100px;
+    min-height: 70vh;
 }
 
 .product-list {
